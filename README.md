@@ -20,11 +20,11 @@ Installatie
       > create schema wigo4it authorization wego4it;
       \q om PostgreSQL te verlaten
    ```
-   1. Maak een venv aan vanuit de root drectory van het project
-       ```
-       python -m venv venv
-       pip install -r requirements.txt
-       ``` 
+1. Maak een venv aan vanuit de root drectory van het project
+    ```
+    python -m venv venv
+    pip install -r requirements.txt
+    ``` 
 1. Creeer de tabellen in de database
     ```
     python manage.py migrate
